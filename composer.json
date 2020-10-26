@@ -1,0 +1,44 @@
+{
+    "name": "migratetoflarum/recalculate-meta",
+    "description": "Re-calculate the meta information of discussions and users",
+    "keywords": [
+        "extension",
+        "flarum",
+        "migration",
+        "meta"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Clark Winkelmann",
+            "email": "clark.winkelmann@gmail.com",
+            "homepage": "https://clarkwinkelmann.com/"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/migratetoflarum/recalculate-meta/issues",
+        "source": "https://github.com/migratetoflarum/recalculate-meta"
+    },
+    "require": {
+        "flarum/core": ">=0.1.0-beta.13 <0.1.0-beta.15"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Recalculate Meta",
+            "icon": {
+                "name": "fas fa-calculator",
+                "backgroundColor": "#e7672e",
+                "color": "#fafafa"
+            }
+        },
+        "flagrow": {
+            "discuss": ""
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "MigrateToFlarum\\RecalculateMeta\\": "src/"
+        }
+    }
+}
