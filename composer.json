@@ -20,7 +20,7 @@
         "source": "https://github.com/migratetoflarum/recalculate-meta"
     },
     "require": {
-        "flarum/core": "^0.1.0-beta.13"
+        "flarum/core": "^1.8"
     },
     "extra": {
         "flarum-extension": {
